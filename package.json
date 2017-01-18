@@ -1,0 +1,27 @@
+{
+  "name": "download-wikipedia",
+  "version": "1.0.0",
+  "description": "NodeJS app to download wikipedia articles to a neo4j database.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iolucas/download-wikipedia.git"
+  },
+  "author": "Lucas V. Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iolucas/download-wikipedia/issues"
+  },
+  "homepage": "https://github.com/iolucas/download-wikipedia#readme",
+  "dependencies": {
+    "async": "^2.1.4",
+    "bluebird": "^3.4.7",
+    "cheerio": "^0.22.0",
+    "node-neo4j": "^2.0.3",
+    "promise": "^7.1.1",
+    "request": "^2.79.0"
+  }
+}
